@@ -34,18 +34,12 @@ jobs:
           name: Test logs
           path: logs/
 
-      - name: Upload Screenshots as Artifacts
+     
+      - name: Upload HTML Report & Screenshots as Artifact
         if: always()
         uses: actions/upload-artifact@v4.4.3
         with:
-          name: screenshots
-          path: screenshots/
-
-      - name: Upload HTML Report as Artifact
-        if: always()
-        uses: actions/upload-artifact@v4.4.3
-        with:
-          name: html-report
+          name: Test Reports and Screenhots
           path: Reports/
 
       - name: Test Execution Status
