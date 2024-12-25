@@ -9,7 +9,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import pages.HomePage;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,12 +16,11 @@ import java.io.IOException;
 public class Hooks extends TestBase {
 
     private static final Logger logger = LogManager.getLogger(Hooks.class);
-    private HomePage homePage = new HomePage();
 
     @Before
     public void initializeTest(Scenario scenario) {
         logger.info("Initializing Test for Scenario: " + scenario.getName());
-        setup("chrome", true, true); // Ensure this setup works with your WebDriver configuration
+        setup("chrome", true, true, scenario); // Configure browser and test setup here
     }
 
     @After
@@ -38,12 +36,12 @@ public class Hooks extends TestBase {
 
     @AfterStep
     public void afterEachStep(Scenario scenario) throws IOException {
-        // Log step completion
-        logger.info("Completed Step: " + scenario.getName());
+        logger.info("Step completed for Scenario: " + scenario.getName());
 
-        // Capture screenshot after each step
-        File screenshot = ((TakesScreenshot) homePage.getDriver()).getScreenshotAs(OutputType.FILE);
-        byte[] fileContent = FileUtils.readFileToByteArray(screenshot);
-        scenario.attach(fileContent, "image/png", "Screenshot");
+        homePage.addScreenshot(scenario);
+//        // Capture screenshot after each step
+//        File screenshot = ((TakesScreenshot) homePage.getDriver()).getScreenshotAs(OutputType.FILE);
+//        byte[] fileContent = FileUtils.readFileToByteArray(screenshot);
+//        scenario.attach(fileContent, "image/png", "Step Screenshot");
     }
 }

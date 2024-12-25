@@ -29,7 +29,7 @@ public class LambdaTestUtility {
         Map<String, Object> ltOptions = new HashMap<>();
         ltOptions.put("user", user);
         ltOptions.put("accessKey", accessKey);
-        ltOptions.put("build", "Selenium 4");
+        ltOptions.put("build", "Selenium Cucumber");
         ltOptions.put("name", testName);
         ltOptions.put("platformName", "Windows 10");
         ltOptions.put("seCdp", true);

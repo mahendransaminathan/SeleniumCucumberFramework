@@ -278,7 +278,7 @@ public abstract class BrowserUtility {
         byte[] fileContent = FileUtils.readFileToByteArray(screenshotData);
 
         // Attach the screenshot to the Cucumber scenario
-        scenario.attach(fileContent, "image/png", "screenshot");
+        scenario.attach(fileContent, "image/png", "Step Screenshot");
 
 
 //        if (scenario.isFailed()) {
