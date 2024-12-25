@@ -2,7 +2,7 @@
 
 <suite name="Automation Practice Test Suite" parallel="methods" thread-count="4" verbose="1">
     <listeners>
-        <listener class-name="listeners.RetryTransformer" />
+        <listener class-name="ui.listeners.RetryTransformer" />
     </listeners>
     <test name="Cucumber UI Automation Test">
 
@@ -13,7 +13,7 @@
 
         <classes>
             <!-- Cucumber Runner class -->
-            <class name="runner.RunCucumberTest"/>
+            <class name="ui.runner.RunCucumberTest"/>
         </classes>
     </test>
 </suite>

@@ -1,128 +1,128 @@
-2024-12-25 11:20:18 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Initializing Test for Scenario: Verify user able to land on the Home page successfully 
-2024-12-25 11:20:27 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Initializing HomePage with provided WebDriver. 
-2024-12-25 11:20:27 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Visiting the website..https://www.automationpractice.pl 
-2024-12-25 11:20:30 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Initializing HomePage with default WebDriver settings. 
-2024-12-25 11:20:30 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Verifying the home page title. 
-2024-12-25 11:20:31 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Expected Title: My Shop, Actual Title: My Shop 
-2024-12-25 11:20:31 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Home Page title verification successful. 
-2024-12-25 11:20:31 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user able to land on the Home page successfully 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Verifying the presence of the following elements on the home page: [Home Page Logo, View My Cart, Search Text Box, Login Link, Contact Us Link] 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if 'Home Page Logo' is displayed. 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if element is present: By.xpath: //img[@alt='My Shop'] 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage 'Home Page Logo' is present. 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if 'View My Cart' is displayed. 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if element is present: By.xpath: //a[@title='View my shopping cart'] 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage 'View My Cart' is present. 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if 'Search Text Box' is displayed. 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if element is present: By.xpath: //input[@id='search_query_top'] 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage 'Search Text Box' is present. 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if 'Login Link' is displayed. 
-2024-12-25 11:20:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if element is present: By.xpath: //a[@title='Log in to your customer account'] 
-2024-12-25 11:20:34 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage 'Login Link' is present. 
-2024-12-25 11:20:34 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if 'Contact Us Link' is displayed. 
-2024-12-25 11:20:34 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Checking if element is present: By.xpath: //a[@title='Contact us'] 
-2024-12-25 11:20:34 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage 'Contact Us Link' is present. 
-2024-12-25 11:20:34 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user able to land on the Home page successfully 
-2024-12-25 11:20:35 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Navigating to the Login Page by clicking on the 'Sign In' link. 
-2024-12-25 11:20:35 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Finding element with the locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-25 11:20:35 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Element found and performing the click 
-2024-12-25 11:20:36 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Navigation to Login Page successful. 
-2024-12-25 11:20:36 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user able to land on the Home page successfully 
-2024-12-25 11:20:37 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Scenario passed: Verify user able to land on the Home page successfully 
-2024-12-25 11:20:38 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Test teardown complete for Scenario: Verify user able to land on the Home page successfully 
-2024-12-25 11:20:38 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Initializing Test for Scenario: Verify user log in with valid credentials 
-2024-12-25 11:21:02 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Initializing HomePage with provided WebDriver. 
-2024-12-25 11:21:02 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Visiting the website..https://www.automationpractice.pl 
-2024-12-25 11:21:06 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Initializing HomePage with default WebDriver settings. 
-2024-12-25 11:21:06 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Verifying the home page title. 
-2024-12-25 11:21:07 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Expected Title: My Shop, Actual Title: My Shop 
-2024-12-25 11:21:07 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Home Page title verification successful. 
-2024-12-25 11:21:07 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
-2024-12-25 11:21:10 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Navigating to the Login Page by clicking on the 'Sign In' link. 
-2024-12-25 11:21:10 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Finding element with the locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-25 11:21:10 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Element found and performing the click 
-2024-12-25 11:21:11 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Navigation to Login Page successful. 
-2024-12-25 11:21:11 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
-2024-12-25 11:21:11 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Verifying the Login Page title. Expected: Login - My Shop, Actual: Login - My Shop 
-2024-12-25 11:21:11 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Login Page is displayed correctly. 
-2024-12-25 11:21:11 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
-2024-12-25 11:21:12 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Entering email address: bajoy99768@inikale.com 
-2024-12-25 11:21:12 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='email'] 
-2024-12-25 11:21:12 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and now enter textbajoy99768@inikale.com 
-2024-12-25 11:21:12 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Entering password. 
-2024-12-25 11:21:12 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='passwd'] 
-2024-12-25 11:21:13 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and now enter textPass123 
-2024-12-25 11:21:13 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
-2024-12-25 11:21:14 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Clicking on the Sign In button. 
-2024-12-25 11:21:14 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
-2024-12-25 11:21:14 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and performing the click 
-2024-12-25 11:21:15 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
-2024-12-25 11:21:15 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Scenario passed: Verify user log in with valid credentials 
-2024-12-25 11:21:16 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Test teardown complete for Scenario: Verify user log in with valid credentials 
-2024-12-25 11:21:16 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Initializing Test for Scenario: Verify user cannot log in with invalid credentials 
-2024-12-25 11:21:23 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Initializing HomePage with provided WebDriver. 
-2024-12-25 11:21:23 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Visiting the website..https://www.automationpractice.pl 
-2024-12-25 11:21:27 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Initializing HomePage with default WebDriver settings. 
-2024-12-25 11:21:27 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Verifying the home page title. 
-2024-12-25 11:21:28 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Expected Title: My Shop, Actual Title: My Shop 
-2024-12-25 11:21:28 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Home Page title verification successful. 
-2024-12-25 11:21:28 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
-2024-12-25 11:21:30 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Navigating to the Login Page by clicking on the 'Sign In' link. 
-2024-12-25 11:21:30 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Finding element with the locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-25 11:21:30 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Element found and performing the click 
-2024-12-25 11:21:31 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Navigation to Login Page successful. 
-2024-12-25 11:21:31 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
-2024-12-25 11:21:32 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Verifying the Login Page title. Expected: Login - My Shop, Actual: Login - My Shop 
-2024-12-25 11:21:32 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Login Page is displayed correctly. 
-2024-12-25 11:21:32 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
-2024-12-25 11:21:32 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Entering email address: anotheruser@domain.com 
-2024-12-25 11:21:32 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='email'] 
-2024-12-25 11:21:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and now enter textanotheruser@domain.com 
-2024-12-25 11:21:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Entering password. 
-2024-12-25 11:21:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='passwd'] 
-2024-12-25 11:21:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and now enter textSecret45 
-2024-12-25 11:21:33 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
-2024-12-25 11:21:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Clicking on the Sign In button. 
-2024-12-25 11:21:33 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
-2024-12-25 11:21:34 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and performing the click 
-2024-12-25 11:21:34 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
-2024-12-25 11:21:35 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Retrieving the error message from the page. 
-2024-12-25 11:21:35 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //div[contains(@class,'alert-danger')]/ol/li 
-2024-12-25 11:21:35 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and returning the visible testAuthentication failed. 
-2024-12-25 11:21:35 [TestNG-test-Cucumber UI Automation Test-1] ERROR pages.LoginPage Error Message: Authentication failed. 
-2024-12-25 11:21:35 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
-2024-12-25 11:21:35 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Scenario passed: Verify user cannot log in with invalid credentials 
-2024-12-25 11:21:36 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Test teardown complete for Scenario: Verify user cannot log in with invalid credentials 
-2024-12-25 11:21:36 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Initializing Test for Scenario: Verify user see username on My Account Page 
-2024-12-25 11:21:55 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Initializing HomePage with provided WebDriver. 
-2024-12-25 11:21:55 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Visiting the website..https://www.automationpractice.pl 
-2024-12-25 11:21:59 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Initializing HomePage with default WebDriver settings. 
-2024-12-25 11:21:59 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Verifying the home page title. 
-2024-12-25 11:22:00 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Expected Title: My Shop, Actual Title: My Shop 
-2024-12-25 11:22:00 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Home Page title verification successful. 
-2024-12-25 11:22:00 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
-2024-12-25 11:22:03 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Navigating to the Login Page by clicking on the 'Sign In' link. 
-2024-12-25 11:22:03 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Finding element with the locatorBy.xpath: //a[contains(text(), 'Sign in')] 
-2024-12-25 11:22:03 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Element found and performing the click 
-2024-12-25 11:22:04 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.HomePage Navigation to Login Page successful. 
-2024-12-25 11:22:04 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
-2024-12-25 11:22:04 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Verifying the Login Page title. Expected: Login - My Shop, Actual: Login - My Shop 
-2024-12-25 11:22:04 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Login Page is displayed correctly. 
-2024-12-25 11:22:04 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
-2024-12-25 11:22:05 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Entering email address: bajoy99768@inikale.com 
-2024-12-25 11:22:05 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='email'] 
-2024-12-25 11:22:05 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and now enter textbajoy99768@inikale.com 
-2024-12-25 11:22:05 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Entering password. 
-2024-12-25 11:22:05 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='passwd'] 
-2024-12-25 11:22:05 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and now enter textPass123 
-2024-12-25 11:22:05 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
-2024-12-25 11:22:06 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Clicking on the Sign In button. 
-2024-12-25 11:22:06 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Finding element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
-2024-12-25 11:22:06 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.LoginPage Element found and performing the click 
-2024-12-25 11:22:07 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
-2024-12-25 11:22:07 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.MyAccountPage Checking if the user name is displayed on the My Account page. 
-2024-12-25 11:22:07 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.MyAccountPage Checking if element is present: By.xpath: //a[@title="View my customer account"]/span 
-2024-12-25 11:22:07 [TestNG-test-Cucumber UI Automation Test-1] INFO pages.MyAccountPage User name is displayed successfully. 
-2024-12-25 11:22:07 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
-2024-12-25 11:22:08 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Scenario passed: Verify user see username on My Account Page 
-2024-12-25 11:22:08 [TestNG-test-Cucumber UI Automation Test-1] INFO stepDefinitions.Hooks Test teardown complete for Scenario: Verify user see username on My Account Page 
+2024-12-25 21:29:20 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Initializing Test for Scenario: Verify user able to land on the Home page successfully 
+2024-12-25 21:29:29 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Initializing HomePage with provided WebDriver. 
+2024-12-25 21:29:29 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Visiting the website..https://www.automationpractice.pl 
+2024-12-25 21:29:34 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Initializing HomePage with default WebDriver settings. 
+2024-12-25 21:29:34 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Verifying the home page title. 
+2024-12-25 21:29:34 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Expected Title: My Shop, Actual Title: My Shop 
+2024-12-25 21:29:34 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Home Page title verification successful. 
+2024-12-25 21:29:34 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user able to land on the Home page successfully 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Verifying the presence of the following elements on the home page: [Home Page Logo, View My Cart, Search Text Box, Login Link, Contact Us Link] 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if 'Home Page Logo' is displayed. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if element is present: By.xpath: //img[@alt='My Shop'] 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage 'Home Page Logo' is present. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if 'View My Cart' is displayed. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if element is present: By.xpath: //a[@title='View my shopping cart'] 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage 'View My Cart' is present. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if 'Search Text Box' is displayed. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if element is present: By.xpath: //input[@id='search_query_top'] 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage 'Search Text Box' is present. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if 'Login Link' is displayed. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if element is present: By.xpath: //a[@title='Log in to your customer account'] 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage 'Login Link' is present. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if 'Contact Us Link' is displayed. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Checking if element is present: By.xpath: //a[@title='Contact us'] 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage 'Contact Us Link' is present. 
+2024-12-25 21:29:37 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user able to land on the Home page successfully 
+2024-12-25 21:29:39 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Navigating to the Login Page by clicking on the 'Sign In' link. 
+2024-12-25 21:29:39 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Finding element with the locatorBy.xpath: //a[contains(text(), 'Sign in')] 
+2024-12-25 21:29:39 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Element found and performing the click 
+2024-12-25 21:29:40 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Navigation to Login Page successful. 
+2024-12-25 21:29:40 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user able to land on the Home page successfully 
+2024-12-25 21:29:41 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Scenario passed: Verify user able to land on the Home page successfully 
+2024-12-25 21:29:42 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Test teardown complete for Scenario: Verify user able to land on the Home page successfully 
+2024-12-25 21:29:42 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Initializing Test for Scenario: Verify user log in with valid credentials 
+2024-12-25 21:30:03 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Initializing HomePage with provided WebDriver. 
+2024-12-25 21:30:03 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Visiting the website..https://www.automationpractice.pl 
+2024-12-25 21:30:07 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Initializing HomePage with default WebDriver settings. 
+2024-12-25 21:30:07 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Verifying the home page title. 
+2024-12-25 21:30:07 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Expected Title: My Shop, Actual Title: My Shop 
+2024-12-25 21:30:07 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Home Page title verification successful. 
+2024-12-25 21:30:07 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
+2024-12-25 21:30:09 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Navigating to the Login Page by clicking on the 'Sign In' link. 
+2024-12-25 21:30:09 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Finding element with the locatorBy.xpath: //a[contains(text(), 'Sign in')] 
+2024-12-25 21:30:09 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Element found and performing the click 
+2024-12-25 21:30:11 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Navigation to Login Page successful. 
+2024-12-25 21:30:11 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
+2024-12-25 21:30:11 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Verifying the Login Page title. Expected: Login - My Shop, Actual: Login - My Shop 
+2024-12-25 21:30:11 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Login Page is displayed correctly. 
+2024-12-25 21:30:11 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
+2024-12-25 21:30:12 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Entering email address: bajoy99768@inikale.com 
+2024-12-25 21:30:12 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='email'] 
+2024-12-25 21:30:12 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and now enter textbajoy99768@inikale.com 
+2024-12-25 21:30:12 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Entering password. 
+2024-12-25 21:30:12 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='passwd'] 
+2024-12-25 21:30:12 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and now enter textPass123 
+2024-12-25 21:30:12 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
+2024-12-25 21:30:13 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Clicking on the Sign In button. 
+2024-12-25 21:30:13 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
+2024-12-25 21:30:13 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and performing the click 
+2024-12-25 21:30:14 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user log in with valid credentials 
+2024-12-25 21:30:14 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Scenario passed: Verify user log in with valid credentials 
+2024-12-25 21:30:15 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Test teardown complete for Scenario: Verify user log in with valid credentials 
+2024-12-25 21:30:15 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Initializing Test for Scenario: Verify user cannot log in with invalid credentials 
+2024-12-25 21:30:22 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Initializing HomePage with provided WebDriver. 
+2024-12-25 21:30:22 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Visiting the website..https://www.automationpractice.pl 
+2024-12-25 21:30:26 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Initializing HomePage with default WebDriver settings. 
+2024-12-25 21:30:26 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Verifying the home page title. 
+2024-12-25 21:30:26 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Expected Title: My Shop, Actual Title: My Shop 
+2024-12-25 21:30:26 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Home Page title verification successful. 
+2024-12-25 21:30:26 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
+2024-12-25 21:30:28 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Navigating to the Login Page by clicking on the 'Sign In' link. 
+2024-12-25 21:30:28 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Finding element with the locatorBy.xpath: //a[contains(text(), 'Sign in')] 
+2024-12-25 21:30:28 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Element found and performing the click 
+2024-12-25 21:30:29 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Navigation to Login Page successful. 
+2024-12-25 21:30:29 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
+2024-12-25 21:30:30 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Verifying the Login Page title. Expected: Login - My Shop, Actual: Login - My Shop 
+2024-12-25 21:30:30 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Login Page is displayed correctly. 
+2024-12-25 21:30:30 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
+2024-12-25 21:30:30 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Entering email address: anotheruser@domain.com 
+2024-12-25 21:30:30 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='email'] 
+2024-12-25 21:30:30 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and now enter textanotheruser@domain.com 
+2024-12-25 21:30:30 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Entering password. 
+2024-12-25 21:30:30 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='passwd'] 
+2024-12-25 21:30:30 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and now enter textSecret45 
+2024-12-25 21:30:31 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
+2024-12-25 21:30:31 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Clicking on the Sign In button. 
+2024-12-25 21:30:31 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
+2024-12-25 21:30:31 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and performing the click 
+2024-12-25 21:30:32 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
+2024-12-25 21:30:32 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Retrieving the error message from the page. 
+2024-12-25 21:30:32 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //div[contains(@class,'alert-danger')]/ol/li 
+2024-12-25 21:30:32 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and returning the visible testAuthentication failed. 
+2024-12-25 21:30:32 [TestNG-test-Cucumber UI Automation Test-1] ERROR ui.pages.LoginPage Error Message: Authentication failed. 
+2024-12-25 21:30:32 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user cannot log in with invalid credentials 
+2024-12-25 21:30:33 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Scenario passed: Verify user cannot log in with invalid credentials 
+2024-12-25 21:30:34 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Test teardown complete for Scenario: Verify user cannot log in with invalid credentials 
+2024-12-25 21:30:34 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Initializing Test for Scenario: Verify user see username on My Account Page 
+2024-12-25 21:30:55 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Initializing HomePage with provided WebDriver. 
+2024-12-25 21:30:55 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Visiting the website..https://www.automationpractice.pl 
+2024-12-25 21:30:59 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Initializing HomePage with default WebDriver settings. 
+2024-12-25 21:30:59 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Verifying the home page title. 
+2024-12-25 21:31:00 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Expected Title: My Shop, Actual Title: My Shop 
+2024-12-25 21:31:00 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Home Page title verification successful. 
+2024-12-25 21:31:00 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
+2024-12-25 21:31:01 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Navigating to the Login Page by clicking on the 'Sign In' link. 
+2024-12-25 21:31:01 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Finding element with the locatorBy.xpath: //a[contains(text(), 'Sign in')] 
+2024-12-25 21:31:01 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Element found and performing the click 
+2024-12-25 21:31:02 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.HomePage Navigation to Login Page successful. 
+2024-12-25 21:31:02 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
+2024-12-25 21:31:03 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Verifying the Login Page title. Expected: Login - My Shop, Actual: Login - My Shop 
+2024-12-25 21:31:03 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Login Page is displayed correctly. 
+2024-12-25 21:31:03 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
+2024-12-25 21:31:03 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Entering email address: bajoy99768@inikale.com 
+2024-12-25 21:31:03 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='email'] 
+2024-12-25 21:31:03 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and now enter textbajoy99768@inikale.com 
+2024-12-25 21:31:04 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Entering password. 
+2024-12-25 21:31:04 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //input[@id='passwd'] 
+2024-12-25 21:31:04 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and now enter textPass123 
+2024-12-25 21:31:04 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
+2024-12-25 21:31:04 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Clicking on the Sign In button. 
+2024-12-25 21:31:04 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Finding element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
+2024-12-25 21:31:04 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.LoginPage Element found and performing the click 
+2024-12-25 21:31:05 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
+2024-12-25 21:31:06 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.MyAccountPage Checking if the user name is displayed on the My Account page. 
+2024-12-25 21:31:06 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.MyAccountPage Checking if element is present: By.xpath: //a[@title="View my customer account"]/span 
+2024-12-25 21:31:06 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.pages.MyAccountPage User name is displayed successfully. 
+2024-12-25 21:31:06 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Step completed for Scenario: Verify user see username on My Account Page 
+2024-12-25 21:31:06 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Scenario passed: Verify user see username on My Account Page 
+2024-12-25 21:31:07 [TestNG-test-Cucumber UI Automation Test-1] INFO ui.stepDefinitions.Hooks Test teardown complete for Scenario: Verify user see username on My Account Page 
