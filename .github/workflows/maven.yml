@@ -52,7 +52,7 @@ jobs:
           echo "Creating the 'public/extent-reports-githubActions' directory..."
           mkdir -p public/extent-reports-githubActions
           echo "Copying Reports to the folder..."
-          cp Reports public/extent-reports-githubActions/
+          cp -r Reports public/extent-reports-githubActions/
           echo "Listing contents of the folder to verify the copy..."
           ls -l public/extent-reports-githubActions
 
